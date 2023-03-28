@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS desafio.cidade ( 
+CREATE EXTERNAL TABLE IF NOT EXISTS desafio.cidade ( 
     id_cidade string,
     ds_cidade string,
     id_estado string
